@@ -1,0 +1,177 @@
+﻿ <root>
+	<LoadSkin Skin="Script/HNGamePrivateSkin.xml"/>
+	<Widget Name="PrivateDismissPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="public/diban.png"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="Pos" Value="0 165"/>
+			<Property Key="ImagicTexture" Value="public/titleBG.png"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="Pos" Value="-120 165"/>
+			<Property Key="ImagicTexture" Value="public/titleIcon.png"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="Pos" Value="120 165"/>
+			<Property Key="ImagicTexture" Value="public/titleIcon.png"/>
+			<Property Key="ScaleX" Value="-1"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="jieSan/titleText.png"/>
+			<Property Key="Pos" Value="0 165"/>
+		</Widget>
+		<Widget Name="RemainTime" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="28"/>
+			<Property Key="FontName" Value="Microsoft YaHei"/>
+			<Property Key="ShowTxt" Value="00:00"/>
+			<Property Key="Pos" Value="0 108"/>
+			<Property Key="Color" Value="69 31 8"/>
+		</Widget>
+		<Widget Name="DissPrivateName0" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="28"/>
+			<Property Key="FontName" Value="Microsoft YaHei"/>
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="Pos" Value="-20 70"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Color" Value="69 31 8"/>
+		</Widget>
+		<Widget Name="DissPrivateState0" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="28"/>
+			<Property Key="FontName" Value="Microsoft YaHei"/>
+			<Property Key="ShowTxt" Value=""/>
+			<UserInfo Key="Text0" Value="同意"/>
+			<UserInfo Key="Text1" Value="不同意"/>
+			<Property Key="Pos" Value="20 70"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="69 31 8"/>
+		</Widget>
+		<Widget Name="DissPrivateName1" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="28"/>
+			<Property Key="FontName" Value="Microsoft YaHei"/>
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="Color" Value="69 31 8"/>
+			<Property Key="Pos" Value="-20 30"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</Widget>
+		<Widget Name="DissPrivateState1" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="28"/>
+			<Property Key="FontName" Value="Microsoft YaHei"/>
+			<Property Key="ShowTxt" Value=""/>
+			<UserInfo Key="Text0" Value="同意"/>
+			<UserInfo Key="Text1" Value="不同意"/>
+			<Property Key="Pos" Value="20 30"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="69 31 8"/>
+		</Widget>
+		<Widget Name="DissPrivateName2" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="28"/>
+			<Property Key="FontName" Value="Microsoft YaHei"/>
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="Color" Value="69 31 8"/>
+			<Property Key="Pos" Value="-20 -10"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</Widget>
+		<Widget Name="DissPrivateState2" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="28"/>
+			<Property Key="FontName" Value="Microsoft YaHei"/>
+			<Property Key="ShowTxt" Value=""/>
+			<UserInfo Key="Text0" Value="同意"/>
+			<UserInfo Key="Text1" Value="不同意"/>
+			<Property Key="Pos" Value="20 -10"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="69 31 8"/>
+		</Widget>
+		<Widget Name="DissPrivateName3" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="28"/>
+			<Property Key="FontName" Value="Microsoft YaHei"/>
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="Color" Value="69 31 8"/>
+			<Property Key="Pos" Value="-20 -50"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</Widget>
+		<Widget Name="DissPrivateState3" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="28"/>
+			<Property Key="FontName" Value="Microsoft YaHei"/>
+			<Property Key="ShowTxt" Value=""/>
+			<UserInfo Key="Text0" Value="同意"/>
+			<UserInfo Key="Text1" Value="不同意"/>
+			<Property Key="Pos" Value="20 -50"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="69 31 8"/>
+		</Widget>
+		
+		<Widget Name="PrivateDismissAction" SkinTempName="Empty">
+			<Widget Name="Button_DismissPrivate" SkinTempName="ButtonTxtEmpty">
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="-120 -130"/>
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="FontName" Value="Microsoft YaHei"/>
+				<Property Key="ShowTxt" Value="同意解散"/>
+			</Widget>
+			<Widget Name="Button_DismissPrivateNot" SkinTempName="ButtonTxtEmpty">
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="120 -130"/>
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="FontName" Value="Microsoft YaHei"/>
+				<Property Key="ShowTxt" Value="拒绝解散"/>
+			</Widget>
+		</Widget>
+	</Widget>
+	<Widget Name="PrivateEndPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Property Key="Visible" Value="false"/>
+		
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScencePrivate/Message_BG.png"/>
+			<Property Key="Pos" Value="0 0"/>
+			<Property Key="Scale" Value="1.00"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScencePrivate/top_backrgound.png"/>
+			<Property Key="Pos" Value="0 310"/>
+			<Property Key="Scale" Value="1.00"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScencePrivate/titleBG.png"/>
+			<Property Key="Pos" Value="0 310"/>
+			<Property Key="Scale" Value="1.00"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScencePrivate/titleText.png"/>
+			<Property Key="Pos" Value="0 306"/>
+			<Property Key="Scale" Value="1.00"/>
+		</Widget>
+		
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScencePrivate/backrgound.png"/>
+			<Property Key="Pos" Value="0 -45"/>
+		</Widget>
+		<Widget Name="Button_BackHome" SkinTempName="Button_Back">
+			<Property Key="Pos" Value="575 315"/>
+			<Action Key="Hide" Value="PrivateEndPlane"/>
+		</Widget>
+		
+		<Widget Name="PrivateEndPlayer0" SkinTempName="PrivateEndPlayerInfo">
+			<Property Key="Pos" Value="-447 0"/>
+		</Widget>
+		<Widget Name="PrivateEndPlayer1" SkinTempName="PrivateEndPlayerInfo">
+			<Property Key="Pos" Value="-149 0"/>
+		</Widget>
+		<Widget Name="PrivateEndPlayer2" SkinTempName="PrivateEndPlayerInfo">
+			<Property Key="Pos" Value="149 0"/>
+		</Widget>
+		<Widget Name="PrivateEndPlayer3" SkinTempName="PrivateEndPlayerInfo">
+			<Property Key="Pos" Value="447 0"/>
+		</Widget>
+		<Widget Name="Button_ShareScreen" SkinTempName="ButtonTxtEmpty">
+			<Property Key="Pos" Value="0 -300"/>
+			<Property Key="NomalTexture" Value="ScencePrivate/shareWeiXin.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+		</Widget>
+	</Widget>
+	
+ </root>

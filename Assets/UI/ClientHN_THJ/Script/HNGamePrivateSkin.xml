@@ -1,0 +1,96 @@
+ <root>
+	<WidgetNode Name="PrivateEndPlayerInfo" >
+		<WidgetImagic Name="" TextureInfo="ScencePrivate/itemBG.png">
+		</WidgetImagic>
+		<WidgetImagic Name="Winner" TextureInfo="GameHNMJ/daYingJia.png">
+			<Property Key="Pos" Value="80 -190"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Head" TextureInfo="Head/Head0.png">
+			<Property Key="Pos" Value="-80 190"/>
+			<Property Key="Scale" Value="0.7"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Head" TextureInfo="Head/public_frame_head.png">
+			<Property Key="Pos" Value="-80 190"/>
+			<Property Key="Scale" Value="0.7"/>
+		</WidgetImagic>
+		<WidgetImagic Name="FangZhu" TextureInfo="GameHNMJ/fangzhu.png">
+			<Property Key="Pos" Value="-59 169"/>
+			<Property Key="Visible" Value="false"/>
+		</WidgetImagic>
+		<WidgetTxt Name="Name" ShowTxt="玩家昵称" FontName="Microsoft YaHei" FontSize="20">
+			<Property Key="Pos" Value="-30 210"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<!--Property Key="OutLine" Value="0 0 0 0"/-->
+			<Property Key="Color" Value="69 31 8"/>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="ID:" FontName="Microsoft YaHei" FontSize="18">
+			<Property Key="Pos" Value="-30 180"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="146 51 25"/>
+		</WidgetTxt>
+		<WidgetTxt Name="ID" ShowTxt="15468" FontName="Microsoft YaHei" FontSize="18">
+			<Property Key="Pos" Value="15 180"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="146 51 25"/>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="自摸次数" FontName="Microsoft YaHei" FontSize="20">
+			<Property Key="Pos" Value="-110 100"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="110 39 19"/>
+			<WidgetTxt Name="ActionTxt0" ShowTxt="*2" FontName="Microsoft YaHei" FontSize="20">
+				<Property Key="Pos" Value="180 15"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="110 39 19"/>
+			</WidgetTxt>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="接炮次数" FontName="Microsoft YaHei" FontSize="20">
+			<Property Key="Pos" Value="-110 50"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="110 39 19"/>
+			<WidgetTxt Name="ActionTxt1" ShowTxt="*2" FontName="Microsoft YaHei" FontSize="20">
+				<Property Key="Pos" Value="180 15"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="110 39 19"/>
+			</WidgetTxt>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="点炮次数" FontName="Microsoft YaHei" FontSize="20">
+			<Property Key="Pos" Value="-110 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="110 39 19"/>
+			<WidgetTxt Name="ActionTxt2" ShowTxt="*2" FontName="Microsoft YaHei" FontSize="20">
+				<Property Key="Pos" Value="180 15"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="110 39 19"/>
+			</WidgetTxt>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="暗杠次数" FontName="Microsoft YaHei" FontSize="20">
+			<Property Key="Pos" Value="-110 -50"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="110 39 19"/>
+			<WidgetTxt Name="ActionTxt3" ShowTxt="*2" FontName="Microsoft YaHei" FontSize="20">
+				<Property Key="Pos" Value="180 15"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="110 39 19"/>
+			</WidgetTxt>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="明杠次数" FontName="Microsoft YaHei" FontSize="20">
+			<Property Key="Pos" Value="-110 -100"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="110 39 19"/>
+			<WidgetTxt Name="ActionTxt4" ShowTxt="*2" FontName="Microsoft YaHei" FontSize="20">
+				<Property Key="Pos" Value="180 15"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="110 39 19"/>
+			</WidgetTxt>
+		</WidgetTxt>
+		<!--WidgetTxt Name="" ShowTxt="总成绩" FontName="" FontSize="28">
+			<Property Key="Pos" Value="0 -150"/>
+			<Property Key="Color" Value="255 255 0"/>
+			<Property Key="OutLine" Value="0 0 0 0"/>
+		</WidgetTxt-->
+		<WidgetTxt Name="TotalScore" ShowTxt="100" FontName="Microsoft YaHei" FontSize="26">
+			<Property Key="Pos" Value="0 -210"/>
+			<Property Key="Color" Value="110 39 19"/>
+		</WidgetTxt>
+	</WidgetNode>
+ </root>

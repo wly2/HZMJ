@@ -1,0 +1,14 @@
+ <root>
+	<WidgetNodeUI Name="HelpListItemZhuanzhuan">
+		<Property Key="Size" Value="1130 1900"/>
+		<WidgetImagic Name="" TextureInfo="HelpScence/rule_zhuanzhuan.png">
+			<Property Key="Pos" Value="460 1000"/>
+		</WidgetImagic>
+	</WidgetNodeUI>
+	<WidgetNodeUI Name="HelpListItemHangzhou">
+		<Property Key="Size" Value="1130 2900"/>
+		<WidgetImagic Name="" TextureInfo="HelpScence/rule_hangzhou.png">
+			<Property Key="Pos" Value="460 1450"/>
+		</WidgetImagic>
+	</WidgetNodeUI>
+ </root>

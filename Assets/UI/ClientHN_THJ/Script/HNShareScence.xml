@@ -1,0 +1,51 @@
+﻿ <root>
+	<Widget Name="SharePlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget  SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ShareScence/share_diban.png"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="Pos" Value="0 165"/>
+			<Property Key="ImagicTexture" Value="ShareScence/share_title_BG.png"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="Pos" Value="-100 165"/>
+			<Property Key="ImagicTexture" Value="public/titleIcon.png"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="Pos" Value="100 165"/>
+			<Property Key="ImagicTexture" Value="public/titleIcon.png"/>
+			<Property Key="ScaleX" Value="-1"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ShareScence/share_title.png"/>
+			<Property Key="Pos" Value="0 165"/>
+		</Widget>
+		<Widget  SkinTempName="Button_Close">
+			<Property Key="Pos" Value="300 180"/>
+			<Action Key="Hide" Value="SharePlane"/>
+		</Widget>
+		
+		<Widget Name="Button_ShareWeiXin" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="ShareScence/share_WeiXin.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="-150 0"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ShareScence/WeiXin.png"/>
+			<Property Key="Pos" Value="-150 -100"/>
+		</Widget>
+		
+		<Widget Name="Button_SharePengYouQuan" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="ShareScence/share_PengYouQuan.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="150 0"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ShareScence/PengYouQuan.png"/>
+			<Property Key="Pos" Value="150 -100"/>
+		</Widget>
+	</Widget>
+ </root>

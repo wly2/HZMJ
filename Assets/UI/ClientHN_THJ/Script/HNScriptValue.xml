@@ -1,0 +1,17 @@
+ <root>
+	<ScriptValueFloat Key="UseWidth" Value="1280"/>
+	<ScriptValueFloat Key="UseHeight" Value="720"/>
+    <!--ScriptValueStr Key="address" Value="www.fl173.com"/-->
+    <!--ScriptValueStr Key="address" Value="192.168.2.107"/-->
+    <!--ScriptValueStr Key="address" Value="192.168.2.109"/-->
+	<ScriptValueStr Key="address" Value="ip.9wmj.com"/>
+	<ScriptValueInt Key="Port" Value="10087"/>
+	<ScriptValueStr Key="Host" Value=""/>
+	<ScriptValueStr Key="PCImei" Value="17"/>
+	
+	<ScriptValueStr Key="UITest" Value=""/>
+	<ScriptValueInt Key="UITestMaskAple" Value="150"/>
+	
+	<ScriptValueInt Key="GameType" Value="1"/>
+	
+ </root>

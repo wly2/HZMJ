@@ -1,0 +1,61 @@
+ <root>
+	<ScriptValueStr Key="NetError" Value="网络错误。"/>
+	<ScriptValueStr Key="YouKe" Value="游客"/>
+	<ScriptValueStr Key="HuRight0"  Value=" 小七对"/>
+	<ScriptValueStr Key="HuRight1"  Value=" 13幺"/>
+	<ScriptValueStr Key="HuRight2"  Value=" 拉杠胡"/>
+	<ScriptValueStr Key="HuRight3"  Value=" 三财神"/>
+	<ScriptValueStr Key="HuRight4"  Value=" 自摸胡"/>
+	<ScriptValueStr Key="HuRight5"  Value=" 放冲胡"/>
+	
+	<ScriptValueStr Key="GFXY" Value="刮风下雨"/>
+	<ScriptValueStr Key="RoomFull" Value="抱歉，房间人数已满，请选择其他房间。"/>
+	
+	<ScriptValueStr Key="PrivateTxt0" Value="确定离开房间吗？"/>
+	<ScriptValueStr Key="PrivateTxt1" Value="房号:#，"/>
+	<ScriptValueStr Key="PrivateTxt2" Value="游戏局号:#，请使用客户端观看该局比赛！"/>
+	<ScriptValueStr Key="PrivateTxt3" Value="你确定要解散房间吗？"/>
+	<ScriptValueStr Key="Test" Value="HNScriptValueStr test"/>
+	
+	<ScriptValueStr Key="NetReconnectError" Value="网络异常，正在尝试重连。"/>
+	<ScriptValueStr Key="JoinRoomNumError" Value="没有找到该房间，可能房主已经退出。"/>
+	<ScriptValueStr Key="ViewGameError" Value="游戏局号不存在或已过期，请确认后输入。"/>
+
+
+	<!--
+	<ScriptValueStr Key="ChatWord1" Value="兄弟你是在玩蛇呀！"/>
+	<ScriptValueStr Key="ChatWord2" Value="速度一点好吗？"/>
+	<ScriptValueStr Key="ChatWord3" Value="小心一点，老铁，我要胡了！"/>
+	<ScriptValueStr Key="ChatWord4" Value="抠抠脚再赢几盘！"/>
+	<ScriptValueStr Key="ChatWord5" Value="拿钱拿钱麻溜的！"/>
+	<ScriptValueStr Key="ChatWord6" Value="不要走，再玩会！"/>
+	-->
+	<ScriptValueStr Key="ChatWord1" Value="你太牛了"/>
+	<ScriptValueStr Key="ChatWord2" Value="哈哈，手气真好"/>
+	<ScriptValueStr Key="ChatWord3" Value="快点出牌噢"/>
+	<ScriptValueStr Key="ChatWord4" Value="今天真高兴"/>
+	<ScriptValueStr Key="ChatWord5" Value="这个吃的好"/>
+	<ScriptValueStr Key="ChatWord6" Value="你放炮我不胡"/>
+	<ScriptValueStr Key="ChatWord7" Value="你家里是开银行的吧"/>
+	<ScriptValueStr Key="ChatWord8" Value="不好意思，我有事要先走一步了"/>
+	<ScriptValueStr Key="ChatWord9" Value="你的牌打的太好啦"/>
+	<ScriptValueStr Key="ChatWord10" Value="大家好，很高兴见到各位"/>
+	<ScriptValueStr Key="ChatWord11" Value="怎么又断线了啊，网络怎么这么差"/>
+	
+	<ScriptValueStr Key="fxlnjhp" Value="天天来麻将"/>
+	<ScriptValueStr Key="RecordTitle0" Value="序号 "/>
+	<ScriptValueStr Key="RecordTitle1" Value="对战时间 "/>
+	<ScriptValueStr Key="RecordTitle2" Value="玩家一 "/>
+	<ScriptValueStr Key="RecordTitle3" Value="玩家二 "/>
+	<ScriptValueStr Key="RecordTitle4" Value="玩家三 "/>
+	<ScriptValueStr Key="RecordTitle5" Value="玩家四 "/>
+	
+	<ScriptValueStr Key="ChuZeng0" Value="无弹 "/>
+	<ScriptValueStr Key="ChuZeng1" Value="出弹 "/>
+	
+	<ScriptValueStr Key="RuleWanFa" Value="玩法："/>
+	<ScriptValueStr Key="RuleWuDan" Value="无弹（庄翻倍）"/>
+	<ScriptValueStr Key="RuleYouDan" Value="有弹（闲家可选）"/>
+	
+ </root>
+ 

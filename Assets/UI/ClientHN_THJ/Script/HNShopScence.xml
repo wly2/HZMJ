@@ -1,0 +1,118 @@
+﻿ <root>
+	<LoadSkin Skin="Script/HNShopSkin.xml"/>
+	<Widget Name="ShopPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 350"/>
+		<Widget  SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget  SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="SceneShop/ui_kuang.png"/>
+			<Property Key="Size" Value="800 402"/>
+			<Property Key="Pos" Value="0 0"/>
+			<Property Key="Scale" Value="1"/>
+		</Widget>
+
+		<Widget Name="Button_Item1" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="SceneShop/ui_shopkuang.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="-230 0"/>
+
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="SceneShop/ui_fangka.png"/>
+				<Property Key="Pos" Value="120 200"/>
+				<Property Key="Scale" Value="1"/>
+			</Widget>
+
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="SceneShop/ui_jiage.png"/>
+				<Property Key="Pos" Value="115 40"/>
+				<Property Key="Scale" Value="1"/>
+			</Widget>
+
+			<Widget Name="HomeName" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="ShowTxt" Value="10张"/>
+				<Property Key="Pos" Value="130 100"/>
+				<Property Key="AnchorPos" Value="0.5 0.5"/>
+			</Widget>
+
+			<Widget Name="HomeName" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="ShowTxt" Value="30"/>
+				<Property Key="Pos" Value="130 40"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+		</Widget>
+
+		<Widget Name="Button_Item2" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="SceneShop/ui_shopkuang.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="10 0"/>
+
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="SceneShop/ui_fangka.png"/>
+				<Property Key="Pos" Value="120 200"/>
+				<Property Key="Scale" Value="1"/>
+			</Widget>
+
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="SceneShop/ui_jiage.png"/>
+				<Property Key="Pos" Value="115 40"/>
+				<Property Key="Scale" Value="1"/>
+			</Widget>
+
+			<Widget Name="HomeName" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="ShowTxt" Value="20张"/>
+				<Property Key="Pos" Value="130 100"/>
+				<Property Key="AnchorPos" Value="0.5 0.5"/>
+			</Widget>
+
+			<Widget Name="HomeName" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="ShowTxt" Value="60"/>
+				<Property Key="Pos" Value="130 40"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+		</Widget>
+
+		<Widget Name="Button_Item3" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="SceneShop/ui_shopkuang.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="250 0"/>
+
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="SceneShop/ui_fangka.png"/>
+				<Property Key="Pos" Value="120 200"/>
+				<Property Key="Scale" Value="1"/>
+			</Widget>
+
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="SceneShop/ui_jiage.png"/>
+				<Property Key="Pos" Value="115 40"/>
+				<Property Key="Scale" Value="1"/>
+			</Widget>
+
+			<Widget Name="HomeName" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="ShowTxt" Value="50张"/>
+				<Property Key="Pos" Value="130 100"/>
+				<Property Key="AnchorPos" Value="0.5 0.5"/>
+			</Widget>
+
+			<Widget Name="HomeName" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="ShowTxt" Value="148"/>
+				<Property Key="Pos" Value="130 40"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+		</Widget>
+
+		<Widget Name="Button_Close" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="SceneShop/ui_anniu.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="390 210"/>
+		</Widget>
+		
+	</Widget>
+	
+ </root>

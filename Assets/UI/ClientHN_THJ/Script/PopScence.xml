@@ -1,0 +1,115 @@
+﻿ <root>
+	<Widget Name="AccessPlane" SkinTempName="PopNode">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="BtnFullEmpty">
+			<Property Key="Aple" Value="0.3"/>
+		</Widget>
+		<Widget SkinTempName="public_9sprite">
+			<Property Key="PreferredSize" Value="683 300"/>
+			<Property Key="Pos" Value="0 0"/>
+			<Widget Name="AccessTxt" SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="PopScence.xml AccessTxt"/>
+				<Property Key="FontSize" Value="25"/>
+				<Property Key="FontName" Value="Microsoft Yahei"/>
+				<Property Key="Pos" Value="340 160"/>
+				<Property Key="Color" Value="69 31 8"/>
+			</Widget>
+			<Widget Name="ACPlane1" SkinTempName="Empty">
+				<Widget Name="Button_PopAccess" SkinTempName="ButtonEmpty">
+					<Property Key="Pos" Value="345 -64"/>
+					<Property Key="NomalTexture" Value="public/Button_Ok.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+				</Widget>
+			</Widget>
+			<Widget Name="ACPlane2" SkinTempName="Empty">
+				<Widget Name="Button_PopAccess" SkinTempName="ButtonEmpty">
+					<Property Key="Pos" Value="200 -64"/>
+					<Property Key="NomalTexture" Value="public/Button_Ok.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+				</Widget>
+				<Widget Name="Button_PopCancel" SkinTempName="ButtonEmpty">
+					<Property Key="Pos" Value="490 -64"/>
+					<Property Key="NomalTexture" Value="public/Button_Cancel.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+				</Widget>
+			</Widget>
+		</Widget>
+	</Widget>
+	<Widget Name="RadioText" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 550"/>
+		<Property Key="Visible" Value="false"/>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/paomadengbeijing.png"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/xiaolaba.png"/>
+			<Property Key="Pos" Value="-410 0"/>
+		</Widget>
+		<Widget Name="LayoutNode" SkinTempName="LayoutEmpty">
+				<Property Key="Size" Value="840 40"/>
+				<Property Key="HideBack"/>
+				<Property Key="Pos" Value="50 0"/>
+				<Property Key="AnchorPos" Value="0.5 0.5"/>
+				<Widget SkinTempName="Empty">
+					<Property Key="Pos" Value="5 20"/>
+					<Widget Name="SysSpeakerTxt" SkinTempName="TxtEmpty">
+						<Property Key="ShowTxt" Value=""/>
+						<Property Key="FontSize" Value="25"/>
+						<Property Key="AnchorPos" Value="0 0.5"/>
+					</Widget>
+				</Widget>
+			</Widget>
+		</Widget>
+	
+	<Widget  Name="PlayerInfoPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Property Key="Visible" Value="false"/>
+		<Widget  SkinTempName="BtnFullEmpty">
+			<Action Key="Hide" Value="PlayerInfoPlane"/>
+		</Widget>
+		<Widget  SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="ScenceHome/public_frame_a.png"/>
+			<Property Key="Size" Value="450 140"/>
+			<Property Key="Pos" Value="0 -0"/>
+		</Widget>
+		<Widget Name="HeadImagic" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/head_img_male.png"/>
+			<Property Key="Pos" Value="-130 0"/>
+			<Property Key="Scale" Value="0.9"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/public_frame_head.png"/>
+			<Property Key="Pos" Value="-130 0"/>
+		</Widget>
+		<Widget Name="PopName" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="40"/>
+			<Property Key="ShowTxt" Value="名字"/>
+			<Property Key="Pos" Value="-60 35"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget Name="" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="26"/>
+			<Property Key="ShowTxt" Value="ID:"/>
+			<Property Key="Pos" Value="-60 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget Name="PopID" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="26"/>
+			<Property Key="ShowTxt" Value="123456"/>
+			<Property Key="Pos" Value="-10 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget Name="" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="26"/>
+			<Property Key="ShowTxt" Value="IP:"/>
+			<Property Key="Pos" Value="-60 -30"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget Name="PopIP" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="26"/>
+			<Property Key="ShowTxt" Value="192.168.1.111"/>
+			<Property Key="Pos" Value="-10 -30"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+	</Widget>
+ </root>

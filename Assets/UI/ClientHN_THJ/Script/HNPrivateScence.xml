@@ -1,0 +1,325 @@
+ <root>
+	<LoadSkin Skin="Script/HNPrivateSkin.xml"/>
+	<Widget  Name="CreateRoomPlane" SkinTempName="Empty">
+		<Property Key="Visible" Value="true"/>
+		<Widget  SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/CreateRoom/createroom_bg.png"/>
+			<Property Key="Pos" Value="640 360"/>
+			<Property Key="Scale" Value="1.00"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/CreateRoom/top_backrgound.png"/>
+			<Property Key="Pos" Value="640 670"/>
+			<Property Key="Scale" Value="1.00"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/CreateRoom/titleBG.png"/>
+			<Property Key="Pos" Value="640 670"/>
+			<Property Key="Scale" Value="1.00"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/CreateRoom/titleText.png"/>
+			<Property Key="Pos" Value="640 666"/>
+			<Property Key="Scale" Value="1.00"/>
+		</Widget>
+		
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/CreateRoom/CreateRoom_Pannel.png"/>
+			<Property Key="Pos" Value="640 315"/>
+		</Widget>
+		
+		<Widget Name="Button_BackHome" SkinTempName="Button_Back">
+			<Property Key="Pos" Value="1215 675"/>
+			<Action Key="Hide" Value="CreateRoomPlane"/>
+		</Widget>
+		
+		<Widget Name="Plane" SkinTempName="Empty">
+			<!--局数选择选项-->
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/CreateRoom/juShu.png"/>
+				<Property Key="Pos" Value="298 520"/>
+			</Widget>
+			
+			<!--局数选择第一行-->
+			<Widget Name="" SkinTempName="Empty">
+				<Property Key="Pos" Value="515 520"/>
+				<Widget Name="Button_GameCout0" SkinTempName="public_CheckBox">
+					<Property Key="UnSelectTexture" Value="ScenceHome/CreateRoom/btn_checkbox.png"/>
+					<Property Key="SelectTexture" Value="ScenceHome/CreateRoom/btn_checkbox1.png"/>
+					<UserInfo Key="Idex" Value="0"/>
+				</Widget>
+				<Widget Name="" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="ScenceHome/CreateRoom/8ju_1fanka.png"/>
+					<Property Key="Pos" Value="104 0"/>
+				</Widget>
+			</Widget>
+			<Widget Name="" SkinTempName="Empty">
+				<Property Key="Pos" Value="825 520"/>
+				<Widget Name="Button_GameCout1" SkinTempName="public_CheckBox">
+					<Property Key="UnSelectTexture" Value="ScenceHome/CreateRoom/btn_checkbox.png"/>
+					<Property Key="SelectTexture" Value="ScenceHome/CreateRoom/btn_checkbox1.png"/>
+					<UserInfo Key="Idex" Value="1"/>
+				</Widget>
+				<Widget Name="" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="ScenceHome/CreateRoom/16ju_2fanka.png"/>
+					<Property Key="Pos" Value="104 0"/>
+				</Widget>
+			</Widget>
+			
+			<!--分割线-->
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/CreateRoom/sperator.png"/>
+				<Property Key="Pos" Value="640 470"/>
+			</Widget>
+			
+			<!--出弹选择选项-->
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/CreateRoom/wanFa.png"/>
+				<Property Key="Pos" Value="298 420"/>
+			</Widget>
+			
+			<!--出弹选择-->
+			<Widget Name="GameRule0" SkinTempName="Empty">
+				<Property Key="Pos" Value="515 420"/>
+				<Widget Name="Button_GameRule0" SkinTempName="public_CheckBox">
+					<Property Key="UnSelectTexture" Value="ScenceHome/CreateRoom/btn_checkbox.png"/>
+					<Property Key="SelectTexture" Value="ScenceHome/CreateRoom/btn_checkbox1.png"/>
+					<UserInfo Key="Idex" Value="0"/>
+				</Widget>
+				<Widget Name="" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="ScenceHome/CreateRoom/wuDan.png"/>
+					<Property Key="Pos" Value="113 0"/>
+				</Widget>
+			</Widget>
+			
+			<Widget Name="GameRule1" SkinTempName="Empty">
+				<Property Key="Pos" Value="825 420"/>
+				<Widget Name="Button_GameRule1" SkinTempName="public_CheckBox">
+					<Property Key="UnSelectTexture" Value="ScenceHome/CreateRoom/btn_checkbox.png"/>
+					<Property Key="SelectTexture" Value="ScenceHome/CreateRoom/btn_checkbox1.png"/>
+					<UserInfo Key="Idex" Value="1"/>
+				</Widget>
+				<Widget Name="" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="ScenceHome/CreateRoom/youDan.png"/>
+					<Property Key="Pos" Value="130 0"/>
+				</Widget>
+			</Widget>
+			
+			<!--分割线-->
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/CreateRoom/sperator.png"/>
+				<Property Key="Pos" Value="640 370"/>
+			</Widget>
+			
+			<!--玩法简介-->
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/CreateRoom/wanFaJianJie.png"/>
+				<Property Key="Pos" Value="340 320"/>
+			</Widget>
+			
+			<!--玩法简介文本-->
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/CreateRoom/wanfaJianJieText.png"/>
+				<Property Key="Pos" Value="710 300"/>
+			</Widget>
+			
+			
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/CreateRoom/notice.png"/>
+				<Property Key="Pos" Value="670 156"/>
+			</Widget>
+
+			<Widget  Name="PlaneCreate" SkinTempName="Empty">
+				<Widget Name="Button_CreateRoom" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/CreateRoom/Button_CreateRoom.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="640 65"/>
+				</Widget>
+			</Widget>
+
+		</Widget>
+	</Widget>
+	<Widget  Name="JoinRoomPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Property Key="Visible" Value="false"/>
+		<Widget  SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/joinRoom/joinRoom_BG.png"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="Pos" Value="0 250"/>
+			<Property Key="ImagicTexture" Value="ScenceHome/joinRoom/joinRoom_top.png"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="Pos" Value="-120 250"/>
+			<Property Key="ImagicTexture" Value="public/titleIcon.png"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="Pos" Value="120 250"/>
+			<Property Key="ImagicTexture" Value="public/titleIcon.png"/>
+			<Property Key="ScaleX" Value="-1"/>
+		</Widget>
+		<!--
+		<Widget Name="" SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="ScenceHome/CreateRoom/selectroom_jinkuang.png"/>
+			<Property Key="Size" Value="780 554"/>
+		</Widget>
+		<Widget Name="" SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="ScenceHome/new_heiban.png"/>
+			<Property Key="Size" Value="610 350"/>
+			<Property Key="Pos" Value="0 -90"/>
+		</Widget>
+		-->
+		<Widget  Name="Button_BackHome" SkinTempName="Button_Close">
+			<Property Key="Pos" Value="385 265"/>
+			<Action Key="Hide" Value="JoinRoomPlane"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/joinRoom/enter_game.png"/>
+			<Property Key="Pos" Value="0 250"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/joinRoom/input_room_no.png"/>
+			<Property Key="Pos" Value="0 185"/>
+		</Widget>
+		<Widget Name="" SkinTempName="Empty">
+			<Property Key="Pos" Value="0 0"/>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/joinRoom/btm_line.png"/>
+				<Property Key="Pos" Value="-250 90"/>
+				<Widget Name="JoinTxt0" SkinTempName="TxtEmpty">
+					<Property Key="FontSize" Value="55"/>
+					<Property Key="ShowTxt" Value="7"/>
+					<Property Key="Pos" Value="30 30"/>
+					<Property Key="Color" Value="156 88 88"/>
+				</Widget>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/joinRoom/btm_line.png"/>
+				<Property Key="Pos" Value="-150 90"/>
+				<Widget Name="JoinTxt1" SkinTempName="TxtEmpty">
+					<Property Key="FontSize" Value="55"/>
+					<Property Key="ShowTxt" Value="7"/>
+					<Property Key="Pos" Value="30 30"/>
+					<Property Key="Color" Value="156 88 88"/>
+				</Widget>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/joinRoom/btm_line.png"/>
+				<Property Key="Pos" Value="-50 90"/>
+				<Widget Name="JoinTxt2" SkinTempName="TxtEmpty">
+					<Property Key="FontSize" Value="55"/>
+					<Property Key="ShowTxt" Value="7"/>
+					<Property Key="Pos" Value="30 30"/>
+					<Property Key="Color" Value="156 88 88"/>
+				</Widget>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/joinRoom/btm_line.png"/>
+				<Property Key="Pos" Value="50 90"/>
+				<Widget Name="JoinTxt3" SkinTempName="TxtEmpty">
+					<Property Key="FontSize" Value="55"/>
+					<Property Key="ShowTxt" Value="7"/>
+					<Property Key="Pos" Value="30 30"/>
+					<Property Key="Color" Value="156 88 88"/>
+				</Widget>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/joinRoom/btm_line.png"/>
+				<Property Key="Pos" Value="150 90"/>
+				<Widget Name="JoinTxt4" SkinTempName="TxtEmpty">
+					<Property Key="FontSize" Value="55"/>
+					<Property Key="ShowTxt" Value="7"/>
+					<Property Key="Pos" Value="30 30"/>
+					<Property Key="Color" Value="156 88 88"/>
+				</Widget>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/joinRoom/btm_line.png"/>
+				<Property Key="Pos" Value="250 90"/>
+				<Widget Name="JoinTxt5" SkinTempName="TxtEmpty">
+					<Property Key="FontSize" Value="55"/>
+					<Property Key="ShowTxt" Value="7"/>
+					<Property Key="Pos" Value="30 30"/>
+					<Property Key="Color" Value="156 88 88"/>
+				</Widget>
+			</Widget>
+		</Widget>
+		<Widget Name="" SkinTempName="Empty">
+			<Property Key="Pos" Value="0 45"/>
+			<Widget Name="Button_JoinNum" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/joinRoom/btn_num_1.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="-258 -15"/>
+				<UserInfo Key="Idex" Value="1"/>
+			</Widget>
+			<Widget Name="Button_JoinNum" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/joinRoom/btn_num_4.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="-258 -102"/>
+				<UserInfo Key="Idex" Value="4"/>
+			</Widget>
+			<Widget Name="Button_JoinNum" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/joinRoom/btn_num_7.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="-258 -188"/>
+				<UserInfo Key="Idex" Value="7"/>
+			</Widget>
+			<Widget Name="Button_JoinNumReset" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/joinRoom/btn_reset.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="-258 -274"/>
+			</Widget>
+			<Widget Name="Button_JoinNum" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/joinRoom/btn_num_2.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="0 -15"/>
+				<UserInfo Key="Idex" Value="2"/>
+			</Widget>
+			<Widget Name="Button_JoinNum" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/joinRoom/btn_num_5.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="0 -102"/>
+				<UserInfo Key="Idex" Value="5"/>
+			</Widget>
+			<Widget Name="Button_JoinNum" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/joinRoom/btn_num_8.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="0 -188"/>
+				<UserInfo Key="Idex" Value="8"/>
+			</Widget>
+			<Widget Name="Button_JoinNum" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/joinRoom/btn_num_0.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="0 -274"/>
+				<UserInfo Key="Idex" Value="0"/>
+			</Widget>
+			<Widget Name="Button_JoinNum" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/joinRoom/btn_num_3.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="258 -15"/>
+				<UserInfo Key="Idex" Value="3"/>
+			</Widget>
+			<Widget Name="Button_JoinNum" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/joinRoom/btn_num_6.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="258 -102"/>
+				<UserInfo Key="Idex" Value="6"/>
+			</Widget>
+			<Widget Name="Button_JoinNum" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/joinRoom/btn_num_9.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="258 -188"/>
+				<UserInfo Key="Idex" Value="9"/>
+			</Widget>
+			<Widget Name="Button_JoinNumDel" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/joinRoom/btn_del.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="258 -274"/>
+			</Widget>
+		</Widget>
+	</Widget>
+ </root>

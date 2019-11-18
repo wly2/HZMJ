@@ -1,0 +1,36 @@
+ <root>
+	<Widget  Name="ReplayPannel" SkinTempName="Empty">
+		<Property Key="Visible" Value="true"/>
+		<Widget  SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="PannelReplay/Replay_BG.png"/>
+			<Property Key="Pos" Value="640 360"/>
+			<Property Key="Scale" Value="1.00"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="PannelReplay/top_backrgound.png"/>
+			<Property Key="Pos" Value="640 670"/>
+			<Property Key="Scale" Value="1.00"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="PannelReplay/titleBG.png"/>
+			<Property Key="Pos" Value="640 670"/>
+			<Property Key="Scale" Value="1.00"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="PannelReplay/titleText.png"/>
+			<Property Key="Pos" Value="640 666"/>
+			<Property Key="Scale" Value="1.00"/>
+		</Widget>
+		
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="PannelReplay/backrgound.png"/>
+			<Property Key="Pos" Value="640 315"/>
+		</Widget>
+		<Widget Name="Button_BackHome" SkinTempName="Button_Back">
+			<Property Key="Pos" Value="1215 675"/>
+			<Action Key="Hide" Value="ReplayPannel"/>
+		</Widget>
+	</Widget>
+ </root>
