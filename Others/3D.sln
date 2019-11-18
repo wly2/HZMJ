@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3D", "3D.csproj", "{8ADBEBA3-28AB-9558-E291-1D92D86895C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3D.Plugins", "3D.Plugins.csproj", "{C1831726-A217-83B1-A284-7E2CC7A36D77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3D.Editor", "3D.Editor.csproj", "{6DAD54DF-7390-F5A3-A4DE-CA59A851B6AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3D.Editor.Plugins", "3D.Editor.Plugins.csproj", "{C2274E59-05DF-08A3-A24C-9026900DBF31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8ADBEBA3-28AB-9558-E291-1D92D86895C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ADBEBA3-28AB-9558-E291-1D92D86895C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ADBEBA3-28AB-9558-E291-1D92D86895C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ADBEBA3-28AB-9558-E291-1D92D86895C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1831726-A217-83B1-A284-7E2CC7A36D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1831726-A217-83B1-A284-7E2CC7A36D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1831726-A217-83B1-A284-7E2CC7A36D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1831726-A217-83B1-A284-7E2CC7A36D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DAD54DF-7390-F5A3-A4DE-CA59A851B6AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DAD54DF-7390-F5A3-A4DE-CA59A851B6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DAD54DF-7390-F5A3-A4DE-CA59A851B6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DAD54DF-7390-F5A3-A4DE-CA59A851B6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2274E59-05DF-08A3-A24C-9026900DBF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2274E59-05DF-08A3-A24C-9026900DBF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2274E59-05DF-08A3-A24C-9026900DBF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2274E59-05DF-08A3-A24C-9026900DBF31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
